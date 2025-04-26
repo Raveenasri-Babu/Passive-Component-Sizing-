@@ -1,12 +1,11 @@
-
-# 📈 Predictive Modeling for Boost Converter Component Sizing
+## Predictive Modeling for Boost Converter Component Sizing
 
 Welcome to the **Boost Converter Component Sizing** project!  
 This project builds a predictive model that recommends optimal passive component values (Resistance, Inductance, and Capacitance) for DC-DC Boost Converters based on input and output voltages.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This notebook uses **Multi-Output Regression** techniques to predict:
 
@@ -30,14 +29,14 @@ The pipeline includes:
 
 ---
 
-## 📊 Data Source
+##  Data Source
 
 - **Dataset**: Boost Converter experimental/simulated data
 - **Format**: CSV file (`boost_converter_data.csv`)
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. **Data Cleaning**: 
    - Verified and handled missing or inconsistent values.
@@ -65,7 +64,7 @@ The pipeline includes:
 
 ---
 
-## 🧪 Selected Features
+##  Selected Features
 
 | Feature | Description |
 |:--------|:------------|
@@ -74,40 +73,15 @@ The pipeline includes:
 
 ---
 
-## ✅ Model Performance
+##  Model Performance
 
 - **Mean Squared Error (MSE)**: `~1.04e-7`
 - **R-squared (R²) Score**: `~0.99999999`
 
----
-
-## 📦 Folder Structure
-
-```
-boost-converter-component-sizing/
-│
-├── data/
-│   └── boost_converter_data.csv
-│
-├── notebooks/
-│   └── boost_converter_component_sizing.ipynb
-│
-├── models/
-│   └── model.pkl  (Optional)
-│
-├── src/
-│   └── utils.py   (Optional helper functions)
-│
-├── README.md
-│
-├── requirements.txt
-│
-└── LICENSE (Optional)
-```
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 Install the following libraries:
 
@@ -123,7 +97,7 @@ scikit-learn
 
 ---
 
-## 📌 Usage Example
+##  Usage Example
 
 ```python
 # Recommend passive components for given Vin and Vout
@@ -137,6 +111,6 @@ recommend_components(18, 14)
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License.
