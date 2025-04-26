@@ -1,4 +1,4 @@
-## Predictive Modeling for Boost Converter Component Sizing
+## Passive Cmponent Sizing for Boost Converter
 
 Welcome to the **Boost Converter Component Sizing** project!  
 This project builds a predictive model that recommends optimal passive component values (Resistance, Inductance, and Capacitance) for DC-DC Boost Converters based on input and output voltages.
